@@ -62,12 +62,16 @@ body {
   z-index: -1;
 }
 .unhas p {
+  max-width: 25ch;
   color: var(--black--texto);
 }
 
 @media (max-width: 1020px) {
   .intro{
     height: 400px;
+  }
+  .unhas {
+    gap: 20px;
   }
   .unhas h1 {
     font-size: 54px;
@@ -105,6 +109,9 @@ body {
   .unhas h1::before {
     display: none;
   }
+  .unhas p {
+    max-width: 16ch;
+  }
   .cabecalho {
     flex-direction: column;
   }
@@ -120,10 +127,18 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .intro img{
-    display: none;
+  .intro img {
+    width: 8rem;
   }
-  .intro {
-    margin-top: 14px;
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+  .unhas p {
+    max-width: 13ch;
+  }
+}
+@media (max-width: 300px) {
+  .intro img {
+    display: none;
   }
 }
