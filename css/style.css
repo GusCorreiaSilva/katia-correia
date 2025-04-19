@@ -8,6 +8,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-bottom: 60px;
 }
 .cabecalho h1 {
   font-family: 'Playfair Display' ;
@@ -33,6 +34,7 @@ body {
   padding: 20px;
   gap: 170px;
   flex-direction: row;
+  margin-bottom: 200px;
 }
 
 .unhas {
