@@ -105,6 +105,9 @@ body {
   .unhas {
     gap: 10px;
   }
+  .unhas-container {
+    margin-bottom: 100px;
+  }
 }
 @media (max-width: 605px) {
   .unhas h1::before {

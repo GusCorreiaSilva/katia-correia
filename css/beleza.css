@@ -42,6 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 34px;
 }
 .btn-agendar {
@@ -49,4 +50,52 @@
   border-radius: 5px;
   color: var(--full--white);
   background-color: var(--contrast);
+  font-size: 16px;
+}
+
+@media (max-width: 1020px) {
+ .beleza-texto p {
+  font-size: 20px;
+ }
+}
+@media (max-width: 900px) {
+  .beleza-texto p {
+    font-size: 16px;
+   }
+   .beleza img{
+    width: 300px;
+   }
+}
+@media (max-width: 700px) {
+  .beleza img{
+    width: 200px;
+   }
+}
+@media (max-width: 605px) {
+ .beleza-container h1::before{
+  display: none;
+ }
+ .beleza-container h1 {
+  font-size: 32px;
+ }
+ .beleza {
+  gap: 40px;
+ }
+ .beleza-texto p{
+  font-size: 14px;
+ }
+ .btn-agendar {
+  font-size: 14px;
+  padding: 10px 22px;
+ }
+}
+@media (max-width: 501px) {
+  .btn-agendar {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 455px) {
+  .beleza img{
+    display: none;
+  }
 }
