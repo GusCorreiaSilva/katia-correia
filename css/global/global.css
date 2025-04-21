@@ -18,6 +18,7 @@ img {
 }
 :root {
   --contrast: #CA0B0B;
+  --contrast--hover: #f01717;
   --full--white: #fff;
   --white--titulo--secundario:#FCFCFC;
   --white--texto:#F6F6F6;
