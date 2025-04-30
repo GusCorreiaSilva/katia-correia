@@ -140,6 +140,13 @@ body {
   .unhas p {
     max-width: 13ch;
   }
+  .unhas-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .cabecalho {
+    margin-bottom: 0px;
+  }
 }
 @media (max-width: 300px) {
   .unhas-container img {

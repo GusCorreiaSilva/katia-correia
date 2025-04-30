@@ -106,4 +106,8 @@
   .beleza img{
     display: none;
   }
+  .beleza-container {
+    gap: 30px;
+    margin-bottom: 50px;
+   }
 }
