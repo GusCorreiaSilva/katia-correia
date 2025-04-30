@@ -50,3 +50,30 @@
 .sobre h1 span {
   color: var(--contrast);
 }
+
+@media (max-width: 850px) {
+  .sobre-container {
+    gap: 40px;
+  }
+  .servicos {
+    gap: 25px;
+    padding: 30px 20px;
+  }
+  .servicos h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width:735px) {
+  .sobre-container {
+    gap: 80px;
+    flex-direction: column-reverse;
+  }
+}
+  @media (max-width: 455px) {
+    .sobre h1 {
+      font-size: 32px;
+    }
+    .sobre p {
+      font-size: 14px;
+    }
+}

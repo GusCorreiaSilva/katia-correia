@@ -75,6 +75,9 @@
   .beleza img{
     width: 200px;
    }
+   .beleza-container {
+    margin-bottom: 100px;
+   }
 }
 @media (max-width: 605px) {
  .beleza-container h1::before{
