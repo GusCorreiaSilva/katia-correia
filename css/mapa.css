@@ -1,0 +1,16 @@
+.mapa-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 740px) {
+  .mapa iframe {
+    max-width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .mapa iframe {
+    max-height: 350px;
+    max-width: 300px;
+  }
+}
