@@ -1,7 +1,13 @@
 .mapa-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.mapa-container h1 {
+  font-family: 'Playfair Display';
+  font-size: 42px;
+  margin-bottom: 50px;
 }
 @media (max-width: 740px) {
   .mapa iframe {
@@ -12,5 +18,8 @@
   .mapa iframe {
     max-height: 350px;
     max-width: 300px;
+  }
+  .mapa-container h1 {
+    font-size: 32px;
   }
 }
