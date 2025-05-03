@@ -74,6 +74,7 @@
   @media (max-width: 455px) {
     .sobre-container {
       margin-bottom: 100px;
+      gap: 50px;
     }
     .sobre h1 {
       font-size: 32px;
