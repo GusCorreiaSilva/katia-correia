@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 170px;
 }
 .beleza p {
   font-family: 'Playfair Display';
@@ -62,6 +62,9 @@
  .beleza-texto p {
   font-size: 20px;
  }
+ .beleza {
+  gap: 80px;
+ }
 }
 @media (max-width: 900px) {
   .beleza-texto p {
@@ -72,6 +75,9 @@
    }
 }
 @media (max-width: 700px) {
+  .btn-agendar {
+   padding: 10px 22px;
+  }
   .beleza img{
     width: 200px;
    }
@@ -94,12 +100,11 @@
  }
  .btn-agendar {
   font-size: 14px;
-  padding: 10px 22px;
  }
 }
 @media (max-width: 501px) {
   .btn-agendar {
-    padding: 10px 20px;
+    padding: 8px 15px;
   }
 }
 @media (max-width: 455px) {
