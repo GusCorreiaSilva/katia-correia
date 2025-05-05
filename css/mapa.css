@@ -10,6 +10,9 @@
   font-size: 42px;
   margin-bottom: 50px;
 }
+.mapa-container h1 span{
+  color: var(--contrast);
+}
 @media (max-width: 740px) {
   .mapa iframe {
     max-width: 400px;
