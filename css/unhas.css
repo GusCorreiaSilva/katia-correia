@@ -5,20 +5,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  margin-bottom: 60px;
+  padding: 1.25rem 3.125rem;
+  margin-bottom: 3.75rem;
 }
 .cabecalho h1 {
   font-family: 'Playfair Display' ;
 }
 .ancora-container {
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .ancora-container a {
   color: var(--black--texto);
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
 }
 #agendar:hover {
   background-color: var(--contrast);
@@ -29,16 +29,16 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  padding: 20px;
-  gap: 170px;
+  padding: 1.25rem;
+  gap: 10.625rem;
   flex-direction: row;
-  margin-bottom: 200px;
+  margin-bottom: 12.5rem;
 }
 
 .unhas {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
   align-items: center;
   justify-content: center;
   
@@ -47,19 +47,19 @@ body {
   color: var(--contrast);
 }
 .unhas h1 {
-  font-size: 64px;
+  font-size: 4rem;
   font-family: 'Playfair Display';
   position: relative;
 }
 .unhas h1::before {
   content: "";
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   background: url(../assets/detalhe.svg)no-repeat center;
   position: absolute;
-  left: -40px;
-  top: -20px;
+  left: -2.5rem;
+  top: -1.25rem;
   z-index: -1;
 }
 .unhas p {
@@ -67,49 +67,49 @@ body {
   color: var(--black--texto);
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 63.75rem) {
   .unhas-container{
-    height: 400px;
+    height: 25rem;
   }
   .unhas {
-    gap: 20px;
+    gap: 1.25rem;
   }
   .unhas h1 {
-    font-size: 54px;
+    font-size: 3.375rem;
   }
   .unhas p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 50rem) {
   .unhas-container {
-    gap: 80px;
+    gap: 5rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   .cabecalho h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .cabecalho a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .unhas-container {
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    gap: 50px;
+    margin-top: 3.125rem;
+    gap: 3.125rem;
   }
   .unhas-container img {
-    width: 300px;
+    width: 18.75rem;
   }
   .unhas {
-    gap: 10px;
+    gap: 0.625rem;
   }
   .unhas-container {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
 }
-@media (max-width: 605px) {
+@media (max-width: 37.8125rem) {
   .unhas h1::before {
     display: none;
   }
@@ -120,8 +120,8 @@ body {
     flex-direction: column;
   }
   .unhas-container {
-    margin-top: 24px;
-    gap: 30px;
+    margin-top: 1.5rem;
+    gap: 1.875rem;
   }
   .unhas-container h1 {
     font-size: 2rem;
@@ -130,7 +130,7 @@ body {
     width: 12rem;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
   .unhas-container img {
     width: 8rem;
   }
@@ -141,14 +141,14 @@ body {
     max-width: 13ch;
   }
   .unhas-container {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
   .cabecalho {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 18.75rem) {
   .unhas-container img {
     display: none;
   }
