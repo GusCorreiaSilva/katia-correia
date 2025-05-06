@@ -1,41 +1,41 @@
 .beleza-container {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
   align-items: center;
   justify-content: center;
-  padding: 24px;
-  margin-bottom: 200px;
+  padding: 1.5rem;
+  margin-bottom: 12.5rem;
 }
 .beleza-container h1 {
-  font-size: 54px;
+  font-size: 3.375rem;
   font-family: 'Playfair Display';
   position: relative;
 }
 .beleza-container h1::before {
   content: "";
   display: block;
-  width: 100px;
-  height: 100px;
-  background: url(../assets/detalhe2.svg)no-repeat center;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url(../assets/detalhe2.svg) no-repeat center;
   position: absolute;
-  top: -10px;
-  left: -45px;
+  top: -0.625rem;
+  left: -2.8125rem;
   z-index: -1;
 }
 .beleza-container h1 span {
   color: var(--contrast);
 }
 .beleza {
-  padding: 24px;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 170px;
+  gap: 10.625rem;
 }
 .beleza p {
   font-family: 'Playfair Display';
-  font-size: 24px;
+  font-size: 1.5rem;
   max-width: 35ch;
 }
 .beleza-texto {
@@ -44,75 +44,75 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 34px;
+  gap: 2.125rem;
 }
 .btn-agendar {
-  padding: 12px 32px;
-  border-radius: 5px;
+  padding: 0.75rem 2rem;
+  border-radius: 0.3125rem;
   color: var(--full--white);
   background-color: var(--contrast);
-  font-size: 16px;
+  font-size: 1rem;
 }
 .btn-agendar:hover {
   background: var(--contrast--hover);
   transition: 0.3s;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 63.75rem) {
  .beleza-texto p {
-  font-size: 20px;
+  font-size: 1.25rem;
  }
  .beleza {
-  gap: 80px;
+  gap: 5rem;
  }
 }
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
   .beleza-texto p {
-    font-size: 16px;
+    font-size: 1rem;
    }
-   .beleza img{
-    width: 300px;
+   .beleza img {
+    width: 18.75rem;
    }
 }
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   .btn-agendar {
-   padding: 10px 22px;
+   padding: 0.625rem 1.375rem;
   }
-  .beleza img{
-    width: 200px;
+  .beleza img {
+    width: 12.5rem;
    }
    .beleza-container {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
    }
 }
-@media (max-width: 605px) {
- .beleza-container h1::before{
+@media (max-width: 37.8125rem) {
+ .beleza-container h1::before {
   display: none;
  }
  .beleza-container h1 {
-  font-size: 32px;
+  font-size: 2rem;
  }
  .beleza {
-  gap: 40px;
+  gap: 2.5rem;
  }
- .beleza-texto p{
-  font-size: 14px;
+ .beleza-texto p {
+  font-size: 0.875rem;
  }
  .btn-agendar {
-  font-size: 14px;
+  font-size: 0.875rem;
  }
 }
-@media (max-width: 501px) {
+@media (max-width: 31.3125rem) {
   .btn-agendar {
-    padding: 8px 15px;
+    padding: 0.5rem 0.9375rem;
   }
 }
-@media (max-width: 455px) {
-  .beleza img{
+@media (max-width: 28.4375rem) {
+  .beleza img {
     display: none;
   }
   .beleza-container {
-    gap: 30px;
-    margin-bottom: 50px;
+    gap: 1.875rem;
+    margin-bottom: 3.125rem;
    }
 }

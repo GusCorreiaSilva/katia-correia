@@ -3,15 +3,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
-  padding: 50px;
+  gap: 3.125rem;
+  padding: 3.125rem;
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 200px;
-  margin-right: 500px;
+  gap: 12.5rem;
+  margin-right: 31.25rem;
 }
 .container-footer h1 {
   color: var(--white--titulo--secundario);
@@ -20,28 +20,28 @@
 .contato {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
   align-items: start;
 }
 .contato a {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--white--contato);
   font-family: 'Inter';
 }
 .contato h2 {
   color: var(--white--titulo--secundario);
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 .social {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 1.4375rem;
   align-items: start;
   justify-content: center;
 }
 .social div {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
 }
 .social h2 {
   color: var(--white--titulo--secundario);

@@ -1,46 +1,46 @@
 .sobre-container {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 12.5rem;
 }
 .servicos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  padding: 60px 50px;
-  border-radius: 5px;
+  gap: 3.125rem;
+  padding: 3.75rem 3.125rem;
+  border-radius: 0.3125rem;
   background: var(--contrast);
-  color: var( --white--contato);
+  color: var(--white--contato);
 }
 .servicos h1 {
-  font-size: 42px;
+  font-size: 2.625rem;
   font-family: 'Playfair Display';
   color: var(--full--white);
 }
 .servicos ul {
   display: grid;
-  gap: 15px;
+  gap: 0.9375rem;
   grid-template-columns: repeat(1fr);
 }
 .servicos ul li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .sobre {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 0px 10px;
+  gap: 0.625rem;
+  padding: 0rem 0.625rem;
   text-align: center;
 }
 .sobre h1 {
-  font-size: 42px;
+  font-size: 2.625rem;
   font-family: 'Playfair Display';
   color: var(--full--black);
 }
@@ -52,34 +52,34 @@
   color: var(--contrast);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 53.125rem) {
   .sobre-container {
-    gap: 40px;
-    margin-bottom: 100px;
+    gap: 2.5rem;
+    margin-bottom: 6.25rem;
   }
   .servicos {
-    gap: 25px;
-    padding: 30px 20px;
+    gap: 1.5625rem;
+    padding: 1.875rem 1.25rem;
   }
   .servicos h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
-@media (max-width:735px) {
+@media (max-width: 45.9375rem) {
   .sobre-container {
-    gap: 80px;
+    gap: 5rem;
     flex-direction: column-reverse;
   }
 }
-  @media (max-width: 455px) {
-    .sobre-container {
-      margin-bottom: 100px;
-      gap: 50px;
-    }
-    .sobre h1 {
-      font-size: 32px;
-    }
-    .sobre p {
-      font-size: 14px;
-    }
+@media (max-width: 28.4375rem) {
+  .sobre-container {
+    margin-bottom: 6.25rem;
+    gap: 3.125rem;
+  }
+  .sobre h1 {
+    font-size: 2rem;
+  }
+  .sobre p {
+    font-size: 0.875rem;
+  }
 }

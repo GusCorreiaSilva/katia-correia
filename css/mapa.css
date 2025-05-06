@@ -3,27 +3,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 .mapa-container h1 {
   font-family: 'Playfair Display';
-  font-size: 42px;
-  margin-bottom: 50px;
+  font-size: 2.625rem;
+  margin-bottom: 3.125rem;
 }
-.mapa-container h1 span{
+.mapa-container h1 span {
   color: var(--contrast);
 }
-@media (max-width: 740px) {
+@media (max-width: 46.25rem) {
   .mapa iframe {
-    max-width: 400px;
+    max-width: 25rem;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   .mapa iframe {
-    max-height: 350px;
-    max-width: 300px;
+    max-height: 21.875rem;
+    max-width: 18.75rem;
   }
   .mapa-container h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 }
